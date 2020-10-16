@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Litegel Technologies</string>
+    <string name="title_home">Home</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">About</string>
+    <string name="title_section3">Live Support</string>
+    <string name="title_section4">Scandal</string>
+    <string name="title_section5">Gossip</string>
+    <string name="title_section6">Lifestyle</string>
+    <string name="title_section7">Technology</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Phone Number</string>
+    <string name="action_settings">Base Url</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="image">Thumbnail</string>
+    <string name="title_activity_bad_network">BadNetwork</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_job">JobActivity</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

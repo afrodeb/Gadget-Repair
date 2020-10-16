@@ -1,0 +1,62 @@
+   <div id="page-wrapper" >
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                   
+                     <h2>Register a new Teacher.</h2>   
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'teachers-form',
+	'enableAjaxValidation'=>false,
+)); ?>
+	<?php echo $form->errorSummary($model); ?>
+
+	<div class="row">
+<!--		<?php echo $form->labelEx($model,'name',array('style'=>'#000;')); ?>-->
+ <label style="color:#000;">Name.</label>
+		<?php echo $form->textField($model,'name',array('class'=>'form-control')); ?>
+		<?php echo $form->error($model,'name'); ?>
+	</div>
+
+	<div class="row">
+		 <label style="color:#000;">Date of Birth.</label>
+		<?php echo $form->textField($model,'dob',array('class'=>'form-control','id'=>'datetimepicker')); ?>
+		<?php echo $form->error($model,'dob'); ?>
+	</div>
+
+	<div class="row">
+		 <label style="color:#000;">Address.</label>
+		<?php echo $form->textArea($model,'address',array('class'=>'form-control')); ?>
+		<?php echo $form->error($model,'address'); ?>
+	</div>
+
+	<div class="row">
+		 <label style="color:#000;">Title.</label>
+		<?php echo $form->textField($model,'title',array('class'=>'form-control')); ?>
+		<?php echo $form->error($model,'title'); ?>
+	</div>
+
+	<div class="row">
+		 <label style="color:#000;">EC Number.</label>
+		<?php echo $form->textField($model,'ecnumber',array('class'=>'form-control')); ?>
+		<?php echo $form->error($model,'ecnumber'); ?>
+	</div>
+
+	<div class="row">
+		 <label style="color:#000;">Start Date.</label>
+		<?php echo $form->textField($model,'startdate',array('class'=>'form-control','id'=>'datetimepicker'2)); ?>
+		<?php echo $form->error($model,'startdate'); ?>
+	</div>class="btn btn-default"
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array('class'=>'btn btn-default')); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->
+</div>
+</div>
+</div>
+</div>

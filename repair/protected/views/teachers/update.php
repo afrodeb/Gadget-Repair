@@ -1,0 +1,21 @@
+<?php
+/* @var $this TeachersController */
+/* @var $model Teachers */
+
+$this->breadcrumbs=array(
+	'Teachers'=>array('index'),
+	$model->name=>array('view','id'=>$model->id),
+	'Update',
+);
+
+$this->menu=array(
+	array('label'=>'List Teachers', 'url'=>array('index')),
+	array('label'=>'Create Teachers', 'url'=>array('create')),
+	array('label'=>'View Teachers', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Manage Teachers', 'url'=>array('admin')),
+);
+?>
+
+<h1>Update Teachers <?php echo $model->id; ?></h1>
+
+<?php $this->renderPartial('_form', array('model'=>$model)); ?>
